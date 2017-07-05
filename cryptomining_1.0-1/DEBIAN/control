@@ -1,0 +1,9 @@
+Package: cryptomining 
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: amd64 
+Depends: ruby (>= 2.1.0) , ohgodatool (>= 1.0-1) , claymore (>= 9.6-1) , amdmeminfo (>= 1.0-1)
+Maintainer: Nikola Krzalic <nikola@krzalic.com> 
+Description: CryptoMining 
+ A collection of tools, scripts and bioses built for the purpose of doing cryptocurrency mining.

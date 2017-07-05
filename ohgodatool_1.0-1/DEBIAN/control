@@ -1,0 +1,9 @@
+Package: ohgodatool 
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: amd64 
+Maintainer: Nikola Krzalic <nikola@krzalic.com> 
+Homepage: https://github.com/OhGodACompany/OhGodATool
+Description: OhGodATool 
+ OhGodATool allows you to edit PowerPlay in the VBIOS, or in the kernel's pp_table. You can edit clock, memory, or voltage tables.

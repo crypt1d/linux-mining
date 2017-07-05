@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'yaml'
+
+env_variables = YAML.load_file("/etc/cryptomining/config.yml")
+
+exec(env_variables, "/usr/local/bin/mine.sh")
+

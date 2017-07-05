@@ -1,0 +1,11 @@
+Package: claymore 
+Version: 9.6-1 
+Section: base
+Priority: optional
+Architecture: amd64 
+Maintainer: Nikola Krzalic <nikola@krzalic.com> 
+Homepage: https://bitcointalk.org/index.php?topic=1433925.0
+Description: Claymore 
+ Comprehensive cryptocurrency miner that supports a wide range of coins, as well as dual mining.
+ Supports both AMD and NVIDIA cards. You will still need to install the drivers separately, though.
+ Note: Claymore has a dev fee of %1/%2 for SOLO/DUAL mining, but tend to have better performance than other miners.

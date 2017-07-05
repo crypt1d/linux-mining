@@ -1,0 +1,8 @@
+Package: amdmeminfo 
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: amd64 
+Maintainer: Nikola Krzalic <nikola@krzalic.com> 
+Description: amdmeminfo
+ A very helpful tool that can extract information on the AMD GPU's memory type.

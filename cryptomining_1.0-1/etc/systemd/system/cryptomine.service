@@ -1,0 +1,13 @@
+[Unit]
+Description=Cryptocurrency miner
+After=network-online.target
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/screen -d -m -S mine /usr/local/bin/cryptomine
+ExecStop=/usr/bin/kill -TERM -- -$MAINPID
+User=root
+Group=root
+
+[Install]
+WantedBy=cryptomine.target
